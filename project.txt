@@ -1,0 +1,20 @@
+Question
+Start: 10/05/2026, 11:00:00
+
+End: 10/05/2026, 13:00:00
+
+Interactive Photo Canvas
+Task
+Create a feature where a user can:
+
+Capture a photo using the device's camera.
+Interact with the captured photo on a canvas by drawing on it and adding stickers from a provided sticker library.
+Requirements
+Implement a camera interface for photo capture.
+Load the captured photo onto a canvas for freehand drawing.
+Use stickers from the provided Figma link: Project Status Stickers https://www.figma.com/design/Ul8AkOtTiNQa6uHNumE0xI/Project-Status-Stickers
+Allow users to export or discard the edited photo.
+Submit here: https://forms.gle/ER387znmXfN4MvzdA
+
+All the best. You got this!
+
