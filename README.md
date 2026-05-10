@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# PhotoCanvas 🎨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PhotoCanvas is a premium, interactive photo editing application built with **Expo**, **React Native Skia**, and **Reanimated**. It allows users to capture photos, unleash their creativity with freehand drawing, and add vibrant project status stickers to their canvas.
 
-## Get started
+![Home Screen Showcase](assets/images/app_bg.png)
 
-1. Install dependencies
+## 🌟 Features
+
+- **📸 Professional Camera**: Capture high-quality photos with integrated flash and camera switching controls.
+- **🖌️ Skia-Powered Canvas**: Smooth, high-performance freehand drawing with customizable brush strokes.
+- **🎭 Sticker Library**: A collection of over 80+ "Project Status" stickers with interactive drag-and-drop functionality.
+- **↩️ Undo/Redo System**: Full history support for drawing, allowing you to perfect your artwork step-by-step.
+- **💾 Export & Share**: Save your final masterpiece directly to your device's gallery or share it instantly.
+- **✨ Premium UI/UX**: Modern dark-mode aesthetic with glassmorphism effects and smooth entrance animations.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Expo](https://expo.dev/) (React Native)
+- **Graphics**: [@shopify/react-native-skia](https://shopify.github.io/react-native-skia/)
+- **Animations**: [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- **Gestures**: [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)
+- **Icons**: [Lucide React Native](https://lucide.dev/guide/packages/lucide-react-native)
+- **Export**: [react-native-view-shot](https://github.com/gre/react-native-view-shot)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have Node.js and the Expo CLI installed.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd photoCanvas
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📁 Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+src/
+├── app/               # Expo Router screens (Home, Camera, Editor)
+├── components/        # Reusable UI components
+│   ├── CameraCapture.tsx
+│   ├── CanvasEditor.tsx
+│   └── StickerPicker.tsx
+assets/
+├── stickers/          # 80+ Premium sticker assets
+└── images/            # App backgrounds and icons
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📜 License
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
