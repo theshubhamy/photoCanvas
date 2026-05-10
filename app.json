@@ -38,6 +38,20 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow photoCanvas to access your camera",
+          "microphonePermission": "Allow photoCanvas to access your microphone"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow photoCanvas to access your photos",
+          "savePhotosPermission": "Allow photoCanvas to save photos to your library"
+        }
       ]
     ],
     "experiments": {
