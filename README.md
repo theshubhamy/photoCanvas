@@ -2,8 +2,6 @@
 
 PhotoCanvas is a premium, interactive photo editing application built with **Expo**, **React Native Skia**, and **Reanimated**. It allows users to capture photos, unleash their creativity with freehand drawing, and add vibrant project status stickers to their canvas.
 
-![Home Screen Showcase](assets/images/app_bg.png)
-
 ## 🌟 Features
 
 - **📸 Professional Camera**: Capture high-quality photos with integrated flash and camera switching controls.
